@@ -46,11 +46,11 @@ impl LibUIWindow {
         );
         let mut lay = VerticalBox::new();
         let mut label = Label::new("");
-        let mut bt = Button::new("ホリエモン！");
+        let mut bt = Button::new("てすと");
         let mut combox = Combobox::new();
-        combox.append("ホリエモン");
-        combox.append("ホリエモン2");
-        combox.append("ホリエモン3");
+        combox.append("項目1");
+        combox.append("項目2");
+        combox.append("項目3");
         lay.append(combox, LayoutStrategy::Stretchy);
         lay.append(label, LayoutStrategy::Stretchy);
         window.set_child(lay);
