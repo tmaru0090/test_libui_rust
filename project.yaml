@@ -1,0 +1,8 @@
+meta:
+  path: ../myproject/
+langauge:
+  selected_langauge_index: 1
+  selected_langauge_type_index: 0
+sample:
+  create_sample_code: true
+
